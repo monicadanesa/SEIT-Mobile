@@ -14,6 +14,7 @@ Usage
  * Make sure Robot Framework is able to run by execute `robot --version` and it will get Robot Framework version as a result.
  * Instal mykonos [mykonos](https://github.com/monicadanesa/robotframework-mykonos)
  * Clone code for the master branch.
+ * Make sure the emulator/device is running and connect by type `adb devices` and change a variable device(resources/data.robot) based on the adb devices result.
  * Point the terminal into test_cases folder.
  * Run `robot test.robot`
  * Check the report result in the end by put url reports from your terminal.
