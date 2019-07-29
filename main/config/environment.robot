@@ -1,5 +1,5 @@
 *** Settings ***
-Library						/Users/monica.danesa/Documents/mykonos/mykonos
+Library						mykonos
 Library           Collections
 Library           OperatingSystem
 Library           String
