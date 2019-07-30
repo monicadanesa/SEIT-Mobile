@@ -15,6 +15,8 @@ Usage
  * Instal mykonos [mykonos](https://github.com/monicadanesa/robotframework-mykonos)
  * Clone code for the master branch.
  * Make sure the emulator/device is running and connect by type `adb devices` and change a variable device(resources/data.robot) based on the adb devices result.
+ * Adjust the App package (resource.data.robot) by execute `adb shell dumpsys window windows | grep mCurrentFocus`
+
  * Point the terminal into test_cases folder.
  * Run `robot test.robot`
  * Check the report result in the end by put url reports from your terminal.
